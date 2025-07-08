@@ -1,7 +1,7 @@
 [features]
 seeds = false
 [programs.devnet]
-mugs_marketplace = "5J3fJvN67uWLo2uNaygTJjdRoJs5mxn9XgtXroiQkcwm"
+terminal_marketplace = "brCRRQ6jBAScsJdwWRx5azEAuYqWxjJGKnaHr3q3gyj"
 
 [registry]
 url = "https://anchor.projectserum.com"
@@ -9,7 +9,7 @@ url = "https://anchor.projectserum.com"
 [provider]
 # cluster = "https://devnet.helius-rpc.com/?api-key=4401b929-7687-43b5-ab0b-77a34de621e9"
 cluster = "devnet"
-wallet = "/root/.config/solana/creator.json"
+wallet = "./deploy-authority.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
